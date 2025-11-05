@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    background-color: bisque;
+    height: 200vh;
+    display: flex;
+    position: relative;
+    border: 4px solid red;
+
+}
+
+.item{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 5px;
+    background-color: blueviolet;
+}
+
+.item1{
+    background-color: palevioletred;
+    position: sticky;
+    top: 150px;
+}
+
+.item2{
+    background-color: rgb(230, 89, 89);
+    /* position: static; */
+    position: relative;
+    left: 100px;
+}
+
+.item3{
+    background-color: rgb(55, 219, 164);
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    
+}
+
+.item4{
+    background-color: rgb(111, 151, 37);
+    position: fixed;
+    top: 450px;
+    
+}
+
+.container2{
+    background-color: pink;
+    
+}
+
