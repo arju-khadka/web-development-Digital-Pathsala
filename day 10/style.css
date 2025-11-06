@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+.parent{
+    background-color: rgb(238, 121, 121);
+    height: 150px;
+    width: 50%;
+
+}
+
+.child{
+    background-color: blueviolet;
+    height: 150px;
+    width: 20%;
+}
+
+.container{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container2{
+    background-color: pink;
+    height: 100vh;
+    width: 100vw;
+}
+
+.about{
+    background-color: rgb(188, 239, 188);
+    height: 100vh;
+    width: 100vw;
+}
+
+p{
+    color: rgb(226, 161, 69);
+    font-size: 18px;
+}
+
+.parent1{
+    font-size: 20px;
+}
+
+.child1{
+    font-size: 5em;
+}
+
+.child2{
+    font-size: 3rem;
+    background-color: brown;
+    height: 5rem;
+}
+
