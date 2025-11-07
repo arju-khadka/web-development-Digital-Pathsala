@@ -1,0 +1,37 @@
+p:nth-child(odd){
+    background: #eba9a9;
+}
+
+p:nth-child(even){
+    background: #c3ef84;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    color: red;
+}
+
+
+p::after{
+    content: "-Remember this";
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: rgb(8, 0, 255);
+}
+
+
+p::first-line{
+    color: black;
+}
+
+p::selection{
+    color: blue;
+}
+
+
+
