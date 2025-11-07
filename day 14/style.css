@@ -1,0 +1,25 @@
+
+
+.div1{
+    background-color: aquamarine;
+}
+
+.div2{
+    background-color: rgb(186, 139, 229);
+}
+
+.div3{
+    background-color: rgb(208, 95, 95);
+    display: inline;
+}
+
+p{
+    background-color: rgb(200, 200, 56);
+    height: 200px;
+}
+
+span{
+    background-color: rgb(98, 190, 190);
+    /* display: block; */
+    height: 100px;
+}
