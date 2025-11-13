@@ -32,6 +32,10 @@ var names = ["Arju","Ram","Sita"]
 //     console.log(names[index])
 // }
 
+for(var i=0; i<names.length; i++){
+    console.log(i)
+}
+
 for(let name of names){
     console.log(name)
 }
