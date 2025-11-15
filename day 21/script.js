@@ -40,6 +40,26 @@ const totalPrice = cartItems.reduce(function(accumulator,currentProduct){
 
 console.log(totalPrice)
 
+//ES6
 
+var name = "arju";
+// let name = "arju"
+// const name = "arju"
 
+// require("packagename")
+// module.exports = name
+
+// import "packagName"
+// export const name
+
+const { age } = {
+    name: "Arju Khadka",
+    age: 21
+};
+
+// console.log(age)
+
+const numbers2 = [1,2,3,4]
+const numbersCopy = [...numbers2]
+console.log(numbersCopy)
 
