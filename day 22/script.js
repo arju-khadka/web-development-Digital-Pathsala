@@ -2,8 +2,8 @@
 
 // const h1 = document.querySelector('.catchMe')
 const h1 = document.getElementsByClassName('catchMe')
-// h1.textContent = "Learning C"
-// h1.style.color = "blue"
+h1.textContent = "Learning C"
+h1.style.color = "blue"
 
 // console.log(h1)
 
